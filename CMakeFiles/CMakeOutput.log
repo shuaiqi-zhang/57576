@@ -1,0 +1,1034 @@
+The system is: Linux - 5.10.102.1-microsoft-standard-WSL2 - x86_64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/3.23.0/CompilerIdCXX/a.out"
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/3.23.0/CompilerIdC/a.out"
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b635b/fast && /usr/bin/make  -f CMakeFiles/cmTC_b635b.dir/build.make CMakeFiles/cmTC_b635b.dir/build
+make[1]: Entering directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b635b.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++   -v -o CMakeFiles/cmTC_b635b.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.23/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b635b.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.23/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_b635b.dir/CMakeCXXCompilerABI.cpp.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccjubys7.s
+GNU C++14 (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (x86_64-linux-gnu)
+	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/7"
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/include/c++/7
+ /usr/include/x86_64-linux-gnu/c++/7
+ /usr/include/c++/7/backward
+ /usr/lib/gcc/x86_64-linux-gnu/7/include
+ /usr/local/include
+ /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C++14 (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (x86_64-linux-gnu)
+	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 3eb3dc290cd5714c3e1c3ae751116f07
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b635b.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_b635b.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccjubys7.s
+GNU assembler version 2.30 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.30
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b635b.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+Linking CXX executable cmTC_b635b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b635b.dir/link.txt --verbose=1
+/usr/bin/c++  -v CMakeFiles/cmTC_b635b.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_b635b 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b635b' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccKXZRx6.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_b635b /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_b635b.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b635b' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/include/c++/7]
+    add: [/usr/include/x86_64-linux-gnu/c++/7]
+    add: [/usr/include/c++/7/backward]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/7/include]
+    add: [/usr/local/include]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/include/c++/7] ==> [/usr/include/c++/7]
+  collapse include dir [/usr/include/x86_64-linux-gnu/c++/7] ==> [/usr/include/x86_64-linux-gnu/c++/7]
+  collapse include dir [/usr/include/c++/7/backward] ==> [/usr/include/c++/7/backward]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/7/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/7/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed] ==> [/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/include/c++/7;/usr/include/x86_64-linux-gnu/c++/7;/usr/include/c++/7/backward;/usr/lib/gcc/x86_64-linux-gnu/7/include;/usr/local/include;/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_b635b/fast && /usr/bin/make  -f CMakeFiles/cmTC_b635b.dir/build.make CMakeFiles/cmTC_b635b.dir/build]
+  ignore line: [make[1]: Entering directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_b635b.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_b635b.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.23/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b635b.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/7/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.23/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_b635b.dir/CMakeCXXCompilerABI.cpp.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccjubys7.s]
+  ignore line: [GNU C++14 (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 7.5.0  GMP version 6.1.2  MPFR version 4.0.1  MPC version 1.1.0  isl version isl-0.19-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/7"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/include/c++/7]
+  ignore line: [ /usr/include/x86_64-linux-gnu/c++/7]
+  ignore line: [ /usr/include/c++/7/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/7/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 7.5.0  GMP version 6.1.2  MPFR version 4.0.1  MPC version 1.1.0  isl version isl-0.19-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 3eb3dc290cd5714c3e1c3ae751116f07]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b635b.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_b635b.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccjubys7.s]
+  ignore line: [GNU assembler version 2.30 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.30]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b635b.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking CXX executable cmTC_b635b]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b635b.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_b635b.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_b635b ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b635b' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccKXZRx6.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_b635b /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_b635b.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccKXZRx6.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_b635b] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
+    arg [CMakeFiles/cmTC_b635b.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7] ==> [/usr/lib/gcc/x86_64-linux-gnu/7]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/7;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_5d56e/fast && /usr/bin/make  -f CMakeFiles/cmTC_5d56e.dir/build.make CMakeFiles/cmTC_5d56e.dir/build
+make[1]: Entering directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5d56e.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_5d56e.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.23/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5d56e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.23/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_5d56e.dir/CMakeCCompilerABI.c.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/cc1z88EA.s
+GNU C11 (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (x86_64-linux-gnu)
+	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/7/include
+ /usr/local/include
+ /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C11 (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (x86_64-linux-gnu)
+	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: b62ed4a2880cd4159476ea8293b72fa8
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5d56e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_5d56e.dir/CMakeCCompilerABI.c.o /tmp/cc1z88EA.s
+GNU assembler version 2.30 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.30
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5d56e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_5d56e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d56e.dir/link.txt --verbose=1
+/usr/bin/cc  -v CMakeFiles/cmTC_5d56e.dir/CMakeCCompilerABI.c.o -o cmTC_5d56e 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5d56e' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccjSjJHz.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_5d56e /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_5d56e.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5d56e' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-linux-gnu/7/include]
+    add: [/usr/local/include]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/7/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/7/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed] ==> [/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/7/include;/usr/local/include;/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_5d56e/fast && /usr/bin/make  -f CMakeFiles/cmTC_5d56e.dir/build.make CMakeFiles/cmTC_5d56e.dir/build]
+  ignore line: [make[1]: Entering directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_5d56e.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_5d56e.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.23/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5d56e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/7/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.23/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_5d56e.dir/CMakeCCompilerABI.c.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/cc1z88EA.s]
+  ignore line: [GNU C11 (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 7.5.0  GMP version 6.1.2  MPFR version 4.0.1  MPC version 1.1.0  isl version isl-0.19-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/7/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C11 (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 7.5.0  GMP version 6.1.2  MPFR version 4.0.1  MPC version 1.1.0  isl version isl-0.19-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: b62ed4a2880cd4159476ea8293b72fa8]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5d56e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_5d56e.dir/CMakeCCompilerABI.c.o /tmp/cc1z88EA.s]
+  ignore line: [GNU assembler version 2.30 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.30]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5d56e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_5d56e]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d56e.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_5d56e.dir/CMakeCCompilerABI.c.o -o cmTC_5d56e ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5d56e' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccjSjJHz.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_5d56e /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_5d56e.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccjSjJHz.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_5d56e] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
+    arg [CMakeFiles/cmTC_5d56e.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7] ==> [/usr/lib/gcc/x86_64-linux-gnu/7]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/7;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the include file byteswap.h exists passed with the following output:
+Change Dir: /mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_69a10/fast && /usr/bin/make  -f CMakeFiles/cmTC_69a10.dir/build.make CMakeFiles/cmTC_69a10.dir/build
+make[1]: Entering directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_69a10.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_69a10.dir/CheckIncludeFile.c.o -c /mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_69a10
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_69a10.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_69a10.dir/CheckIncludeFile.c.o -o cmTC_69a10 
+make[1]: Leaving directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_2bd4a/fast && /usr/bin/make  -f CMakeFiles/cmTC_2bd4a.dir/build.make CMakeFiles/cmTC_2bd4a.dir/build
+make[1]: Entering directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2bd4a.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_2bd4a.dir/CheckIncludeFile.c.o -c /mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_2bd4a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2bd4a.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_2bd4a.dir/CheckIncludeFile.c.o -o cmTC_2bd4a 
+make[1]: Leaving directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file limits.h exists passed with the following output:
+Change Dir: /mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ee993/fast && /usr/bin/make  -f CMakeFiles/cmTC_ee993.dir/build.make CMakeFiles/cmTC_ee993.dir/build
+make[1]: Entering directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ee993.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_ee993.dir/CheckIncludeFile.c.o -c /mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_ee993
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ee993.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_ee993.dir/CheckIncludeFile.c.o -o cmTC_ee993 
+make[1]: Leaving directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: /mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d466e/fast && /usr/bin/make  -f CMakeFiles/cmTC_d466e.dir/build.make CMakeFiles/cmTC_d466e.dir/build
+make[1]: Entering directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d466e.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d466e.dir/CheckIncludeFile.c.o -c /mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d466e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d466e.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_d466e.dir/CheckIncludeFile.c.o -o cmTC_d466e 
+make[1]: Leaving directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: /mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_c642a/fast && /usr/bin/make  -f CMakeFiles/cmTC_c642a.dir/build.make CMakeFiles/cmTC_c642a.dir/build
+make[1]: Entering directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c642a.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_c642a.dir/CheckIncludeFile.c.o -c /mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_c642a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c642a.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_c642a.dir/CheckIncludeFile.c.o -o cmTC_c642a 
+make[1]: Leaving directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_61a0b/fast && /usr/bin/make  -f CMakeFiles/cmTC_61a0b.dir/build.make CMakeFiles/cmTC_61a0b.dir/build
+make[1]: Entering directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_61a0b.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_61a0b.dir/CheckIncludeFile.c.o -c /mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_61a0b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61a0b.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_61a0b.dir/CheckIncludeFile.c.o -o cmTC_61a0b 
+make[1]: Leaving directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/sysctl.h exists passed with the following output:
+Change Dir: /mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d0ad8/fast && /usr/bin/make  -f CMakeFiles/cmTC_d0ad8.dir/build.make CMakeFiles/cmTC_d0ad8.dir/build
+make[1]: Entering directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d0ad8.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d0ad8.dir/CheckIncludeFile.c.o -c /mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d0ad8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d0ad8.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_d0ad8.dir/CheckIncludeFile.c.o -o cmTC_d0ad8 
+make[1]: Leaving directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file net/if.h exists passed with the following output:
+Change Dir: /mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_c4894/fast && /usr/bin/make  -f CMakeFiles/cmTC_c4894.dir/build.make CMakeFiles/cmTC_c4894.dir/build
+make[1]: Entering directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c4894.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_c4894.dir/CheckIncludeFile.c.o -c /mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_c4894
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c4894.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_c4894.dir/CheckIncludeFile.c.o -o cmTC_c4894 
+make[1]: Leaving directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file netinet/in.h exists passed with the following output:
+Change Dir: /mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f87d1/fast && /usr/bin/make  -f CMakeFiles/cmTC_f87d1.dir/build.make CMakeFiles/cmTC_f87d1.dir/build
+make[1]: Entering directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f87d1.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_f87d1.dir/CheckIncludeFile.c.o -c /mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f87d1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f87d1.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_f87d1.dir/CheckIncludeFile.c.o -o cmTC_f87d1 
+make[1]: Leaving directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/epoll.h exists passed with the following output:
+Change Dir: /mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_1d4c0/fast && /usr/bin/make  -f CMakeFiles/cmTC_1d4c0.dir/build.make CMakeFiles/cmTC_1d4c0.dir/build
+make[1]: Entering directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1d4c0.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_1d4c0.dir/CheckIncludeFile.c.o -c /mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_1d4c0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d4c0.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_1d4c0.dir/CheckIncludeFile.c.o -o cmTC_1d4c0 
+make[1]: Leaving directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/timerfd.h exists passed with the following output:
+Change Dir: /mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_760f5/fast && /usr/bin/make  -f CMakeFiles/cmTC_760f5.dir/build.make CMakeFiles/cmTC_760f5.dir/build
+make[1]: Entering directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_760f5.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_760f5.dir/CheckIncludeFile.c.o -c /mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_760f5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_760f5.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_760f5.dir/CheckIncludeFile.c.o -o cmTC_760f5 
+make[1]: Leaving directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file arpa/inet.h exists passed with the following output:
+Change Dir: /mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_8f46c/fast && /usr/bin/make  -f CMakeFiles/cmTC_8f46c.dir/build.make CMakeFiles/cmTC_8f46c.dir/build
+make[1]: Entering directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8f46c.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_8f46c.dir/CheckIncludeFile.c.o -c /mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_8f46c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f46c.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_8f46c.dir/CheckIncludeFile.c.o -o cmTC_8f46c 
+make[1]: Leaving directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdbool.h exists passed with the following output:
+Change Dir: /mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_9ab8f/fast && /usr/bin/make  -f CMakeFiles/cmTC_9ab8f.dir/build.make CMakeFiles/cmTC_9ab8f.dir/build
+make[1]: Entering directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9ab8f.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_9ab8f.dir/CheckIncludeFile.c.o -c /mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_9ab8f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ab8f.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_9ab8f.dir/CheckIncludeFile.c.o -o cmTC_9ab8f 
+make[1]: Leaving directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file netdb.h exists passed with the following output:
+Change Dir: /mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_da0cd/fast && /usr/bin/make  -f CMakeFiles/cmTC_da0cd.dir/build.make CMakeFiles/cmTC_da0cd.dir/build
+make[1]: Entering directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_da0cd.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_da0cd.dir/CheckIncludeFile.c.o -c /mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_da0cd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da0cd.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_da0cd.dir/CheckIncludeFile.c.o -o cmTC_da0cd 
+make[1]: Leaving directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_4a228/fast && /usr/bin/make  -f CMakeFiles/cmTC_4a228.dir/build.make CMakeFiles/cmTC_4a228.dir/build
+make[1]: Entering directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4a228.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_4a228.dir/CheckIncludeFile.c.o -c /mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_4a228
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a228.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_4a228.dir/CheckIncludeFile.c.o -o cmTC_4a228 
+make[1]: Leaving directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: /mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_18ee4/fast && /usr/bin/make  -f CMakeFiles/cmTC_18ee4.dir/build.make CMakeFiles/cmTC_18ee4.dir/build
+make[1]: Entering directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_18ee4.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_18ee4.dir/CheckIncludeFile.c.o -c /mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_18ee4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_18ee4.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_18ee4.dir/CheckIncludeFile.c.o -o cmTC_18ee4 
+make[1]: Leaving directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_85a1b/fast && /usr/bin/make  -f CMakeFiles/cmTC_85a1b.dir/build.make CMakeFiles/cmTC_85a1b.dir/build
+make[1]: Entering directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_85a1b.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_85a1b.dir/CheckIncludeFile.c.o -c /mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_85a1b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_85a1b.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_85a1b.dir/CheckIncludeFile.c.o -o cmTC_85a1b 
+make[1]: Leaving directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file syslog.h exists passed with the following output:
+Change Dir: /mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_74556/fast && /usr/bin/make  -f CMakeFiles/cmTC_74556.dir/build.make CMakeFiles/cmTC_74556.dir/build
+make[1]: Entering directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_74556.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_74556.dir/CheckIncludeFile.c.o -c /mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_74556
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_74556.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_74556.dir/CheckIncludeFile.c.o -o cmTC_74556 
+make[1]: Leaving directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/ioctl.h exists passed with the following output:
+Change Dir: /mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_20758/fast && /usr/bin/make  -f CMakeFiles/cmTC_20758.dir/build.make CMakeFiles/cmTC_20758.dir/build
+make[1]: Entering directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_20758.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_20758.dir/CheckIncludeFile.c.o -c /mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_20758
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_20758.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_20758.dir/CheckIncludeFile.c.o -o cmTC_20758 
+make[1]: Leaving directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/socket.h exists passed with the following output:
+Change Dir: /mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_0d5f0/fast && /usr/bin/make  -f CMakeFiles/cmTC_0d5f0.dir/build.make CMakeFiles/cmTC_0d5f0.dir/build
+make[1]: Entering directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0d5f0.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_0d5f0.dir/CheckIncludeFile.c.o -c /mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_0d5f0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0d5f0.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_0d5f0.dir/CheckIncludeFile.c.o -o cmTC_0d5f0 
+make[1]: Leaving directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: /mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_11309/fast && /usr/bin/make  -f CMakeFiles/cmTC_11309.dir/build.make CMakeFiles/cmTC_11309.dir/build
+make[1]: Entering directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_11309.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_11309.dir/CheckIncludeFile.c.o -c /mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_11309
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11309.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_11309.dir/CheckIncludeFile.c.o -o cmTC_11309 
+make[1]: Leaving directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/time.h exists passed with the following output:
+Change Dir: /mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_9113a/fast && /usr/bin/make  -f CMakeFiles/cmTC_9113a.dir/build.make CMakeFiles/cmTC_9113a.dir/build
+make[1]: Entering directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9113a.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_9113a.dir/CheckIncludeFile.c.o -c /mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_9113a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9113a.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_9113a.dir/CheckIncludeFile.c.o -o cmTC_9113a 
+make[1]: Leaving directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_152ae/fast && /usr/bin/make  -f CMakeFiles/cmTC_152ae.dir/build.make CMakeFiles/cmTC_152ae.dir/build
+make[1]: Entering directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_152ae.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_152ae.dir/CheckIncludeFile.c.o -c /mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_152ae
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_152ae.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_152ae.dir/CheckIncludeFile.c.o -o cmTC_152ae 
+make[1]: Leaving directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/unistd.h exists passed with the following output:
+Change Dir: /mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_8a605/fast && /usr/bin/make  -f CMakeFiles/cmTC_8a605.dir/build.make CMakeFiles/cmTC_8a605.dir/build
+make[1]: Entering directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8a605.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_8a605.dir/CheckIncludeFile.c.o -c /mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_8a605
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8a605.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_8a605.dir/CheckIncludeFile.c.o -o cmTC_8a605 
+make[1]: Leaving directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file time.h exists passed with the following output:
+Change Dir: /mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ef1fb/fast && /usr/bin/make  -f CMakeFiles/cmTC_ef1fb.dir/build.make CMakeFiles/cmTC_ef1fb.dir/build
+make[1]: Entering directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ef1fb.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_ef1fb.dir/CheckIncludeFile.c.o -c /mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_ef1fb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef1fb.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_ef1fb.dir/CheckIncludeFile.c.o -o cmTC_ef1fb 
+make[1]: Leaving directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_c95ea/fast && /usr/bin/make  -f CMakeFiles/cmTC_c95ea.dir/build.make CMakeFiles/cmTC_c95ea.dir/build
+make[1]: Entering directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c95ea.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_c95ea.dir/CheckIncludeFile.c.o -c /mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_c95ea
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c95ea.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_c95ea.dir/CheckIncludeFile.c.o -o cmTC_c95ea 
+make[1]: Leaving directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file float.h exists passed with the following output:
+Change Dir: /mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_0dc1e/fast && /usr/bin/make  -f CMakeFiles/cmTC_0dc1e.dir/build.make CMakeFiles/cmTC_0dc1e.dir/build
+make[1]: Entering directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0dc1e.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_0dc1e.dir/CheckIncludeFile.c.o -c /mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_0dc1e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0dc1e.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_0dc1e.dir/CheckIncludeFile.c.o -o cmTC_0dc1e 
+make[1]: Leaving directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f43a9/fast && /usr/bin/make  -f CMakeFiles/cmTC_f43a9.dir/build.make CMakeFiles/cmTC_f43a9.dir/build
+make[1]: Entering directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f43a9.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_f43a9.dir/CheckIncludeFile.c.o -c /mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f43a9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f43a9.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_f43a9.dir/CheckIncludeFile.c.o -o cmTC_f43a9 
+make[1]: Leaving directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function malloc exists passed with the following output:
+Change Dir: /mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a290d/fast && /usr/bin/make  -f CMakeFiles/cmTC_a290d.dir/build.make CMakeFiles/cmTC_a290d.dir/build
+make[1]: Entering directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a290d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=malloc -o CMakeFiles/cmTC_a290d.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.23/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘malloc’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.23/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_a290d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a290d.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=malloc CMakeFiles/cmTC_a290d.dir/CheckFunctionExists.c.o -o cmTC_a290d 
+make[1]: Leaving directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function memset exists passed with the following output:
+Change Dir: /mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_951d7/fast && /usr/bin/make  -f CMakeFiles/cmTC_951d7.dir/build.make CMakeFiles/cmTC_951d7.dir/build
+make[1]: Entering directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_951d7.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=memset -o CMakeFiles/cmTC_951d7.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.23/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘memset’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.23/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_951d7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_951d7.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=memset CMakeFiles/cmTC_951d7.dir/CheckFunctionExists.c.o -o cmTC_951d7 
+make[1]: Leaving directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function select exists passed with the following output:
+Change Dir: /mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_3d908/fast && /usr/bin/make  -f CMakeFiles/cmTC_3d908.dir/build.make CMakeFiles/cmTC_3d908.dir/build
+make[1]: Entering directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3d908.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=select -o CMakeFiles/cmTC_3d908.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.23/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3d908
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3d908.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=select CMakeFiles/cmTC_3d908.dir/CheckFunctionExists.c.o -o cmTC_3d908 
+make[1]: Leaving directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function socket exists passed with the following output:
+Change Dir: /mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_59489/fast && /usr/bin/make  -f CMakeFiles/cmTC_59489.dir/build.make CMakeFiles/cmTC_59489.dir/build
+make[1]: Entering directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_59489.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=socket -o CMakeFiles/cmTC_59489.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.23/Modules/CheckFunctionExists.c
+Linking C executable cmTC_59489
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_59489.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=socket CMakeFiles/cmTC_59489.dir/CheckFunctionExists.c.o -o cmTC_59489 
+make[1]: Leaving directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function strcasecmp exists passed with the following output:
+Change Dir: /mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_12117/fast && /usr/bin/make  -f CMakeFiles/cmTC_12117.dir/build.make CMakeFiles/cmTC_12117.dir/build
+make[1]: Entering directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_12117.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strcasecmp -o CMakeFiles/cmTC_12117.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.23/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘strcasecmp’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.23/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_12117
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12117.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strcasecmp CMakeFiles/cmTC_12117.dir/CheckFunctionExists.c.o -o cmTC_12117 
+make[1]: Leaving directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pthread_mutex_lock exists passed with the following output:
+Change Dir: /mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d89b3/fast && /usr/bin/make  -f CMakeFiles/cmTC_d89b3.dir/build.make CMakeFiles/cmTC_d89b3.dir/build
+make[1]: Entering directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d89b3.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_mutex_lock -o CMakeFiles/cmTC_d89b3.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.23/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d89b3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d89b3.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_mutex_lock CMakeFiles/cmTC_d89b3.dir/CheckFunctionExists.c.o -o cmTC_d89b3 
+make[1]: Leaving directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function getaddrinfo exists passed with the following output:
+Change Dir: /mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_3bc2d/fast && /usr/bin/make  -f CMakeFiles/cmTC_3bc2d.dir/build.make CMakeFiles/cmTC_3bc2d.dir/build
+make[1]: Entering directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3bc2d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=getaddrinfo -o CMakeFiles/cmTC_3bc2d.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.23/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3bc2d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3bc2d.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=getaddrinfo CMakeFiles/cmTC_3bc2d.dir/CheckFunctionExists.c.o -o cmTC_3bc2d 
+make[1]: Leaving directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function strnlen exists passed with the following output:
+Change Dir: /mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f2afb/fast && /usr/bin/make  -f CMakeFiles/cmTC_f2afb.dir/build.make CMakeFiles/cmTC_f2afb.dir/build
+make[1]: Entering directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f2afb.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strnlen -o CMakeFiles/cmTC_f2afb.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.23/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f2afb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2afb.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strnlen CMakeFiles/cmTC_f2afb.dir/CheckFunctionExists.c.o -o cmTC_f2afb 
+make[1]: Leaving directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function strrchr exists passed with the following output:
+Change Dir: /mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ac1aa/fast && /usr/bin/make  -f CMakeFiles/cmTC_ac1aa.dir/build.make CMakeFiles/cmTC_ac1aa.dir/build
+make[1]: Entering directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ac1aa.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strrchr -o CMakeFiles/cmTC_ac1aa.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.23/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘strrchr’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.23/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_ac1aa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac1aa.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strrchr CMakeFiles/cmTC_ac1aa.dir/CheckFunctionExists.c.o -o cmTC_ac1aa 
+make[1]: Leaving directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function getrandom exists passed with the following output:
+Change Dir: /mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f8224/fast && /usr/bin/make  -f CMakeFiles/cmTC_f8224.dir/build.make CMakeFiles/cmTC_f8224.dir/build
+make[1]: Entering directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f8224.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=getrandom -o CMakeFiles/cmTC_f8224.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.23/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f8224
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f8224.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=getrandom CMakeFiles/cmTC_f8224.dir/CheckFunctionExists.c.o -o cmTC_f8224 
+make[1]: Leaving directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function if_nametoindex exists passed with the following output:
+Change Dir: /mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_6423f/fast && /usr/bin/make  -f CMakeFiles/cmTC_6423f.dir/build.make CMakeFiles/cmTC_6423f.dir/build
+make[1]: Entering directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6423f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=if_nametoindex -o CMakeFiles/cmTC_6423f.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.23/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6423f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6423f.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=if_nametoindex CMakeFiles/cmTC_6423f.dir/CheckFunctionExists.c.o -o cmTC_6423f 
+make[1]: Leaving directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the CMSG_FIRSTHDR exist passed with the following output:
+Change Dir: /mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_7962b/fast && /usr/bin/make  -f CMakeFiles/cmTC_7962b.dir/build.make CMakeFiles/cmTC_7962b.dir/build
+make[1]: Entering directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7962b.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_7962b.dir/CheckSymbolExists.c.o -c /mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_7962b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7962b.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_7962b.dir/CheckSymbolExists.c.o -o cmTC_7962b 
+make[1]: Leaving directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+
+
+File /mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/socket.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CMSG_FIRSTHDR
+  return ((int*)(&CMSG_FIRSTHDR))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}

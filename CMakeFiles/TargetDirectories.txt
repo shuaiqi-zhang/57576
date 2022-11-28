@@ -1,0 +1,12 @@
+/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/coap-3.dir
+/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/coap-client.dir
+/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/coap-rd.dir
+/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/coap-server.dir
+/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/etsi_iot_01.dir
+/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/tiny.dir
+/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/edit_cache.dir
+/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/rebuild_cache.dir
+/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/list_install_components.dir
+/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/install.dir
+/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/install/local.dir
+/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/install/strip.dir

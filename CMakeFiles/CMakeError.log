@@ -1,0 +1,38 @@
+Determining if the include file winsock2.h exists failed with the following output:
+Change Dir: /mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_07da0/fast && /usr/bin/make  -f CMakeFiles/cmTC_07da0.dir/build.make CMakeFiles/cmTC_07da0.dir/build
+make[1]: Entering directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_07da0.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_07da0.dir/CheckIncludeFile.c.o -c /mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: winsock2.h: No such file or directory
+ #include <winsock2.h>
+          ^~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_07da0.dir/build.make:77: recipe for target 'CMakeFiles/cmTC_07da0.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_07da0.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+Makefile:127: recipe for target 'cmTC_07da0/fast' failed
+make: *** [cmTC_07da0/fast] Error 2
+
+
+
+Determining if the include file ws2tcpip.h exists failed with the following output:
+Change Dir: /mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_01b84/fast && /usr/bin/make  -f CMakeFiles/cmTC_01b84.dir/build.make CMakeFiles/cmTC_01b84.dir/build
+make[1]: Entering directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_01b84.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_01b84.dir/CheckIncludeFile.c.o -c /mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: ws2tcpip.h: No such file or directory
+ #include <ws2tcpip.h>
+          ^~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_01b84.dir/build.make:77: recipe for target 'CMakeFiles/cmTC_01b84.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_01b84.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/mnt/i/Jetbrains/Clion/test1/libcoap/CMakeFiles/CMakeTmp'
+Makefile:127: recipe for target 'cmTC_01b84/fast' failed
+make: *** [cmTC_01b84/fast] Error 2
+
+
+
