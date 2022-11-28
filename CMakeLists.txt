@@ -88,7 +88,7 @@ option(
 option(
   ENABLE_DOCS
   "build also doxygen documentation"
-  ON)
+  OFF)
 option(
   WARNING_TO_ERROR
   "force all compiler warnings to be errors"
